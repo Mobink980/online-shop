@@ -2,7 +2,7 @@ version: '3.3'
 services:
   web:
        build:
-               context: php/online-shopping-system
+               context: ./php/online-shopping-system
                dockerfile: Dockerfile
        container_name: php_app
        volumes:
